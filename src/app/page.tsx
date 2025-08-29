@@ -1581,6 +1581,10 @@ const StyledButton05 = styled.span`
 export default function Home() {
   const router = useRouter();
   
+  React.useEffect(() => {
+    document.title = "Daniel Lin - UX Designer Portfolio | Home";
+  }, []);
+  
   return (
     <StyledHomeDesktop>
       <StyledNavbar8>
@@ -1713,6 +1717,15 @@ export default function Home() {
                     <StyledContentTop>
                       <StyledText02>
                         <StyledHeading05>John Hopkins APL</StyledHeading05>
+                        <div style={{ 
+                          color: '#6c757d', 
+                          fontSize: '16px', 
+                          fontWeight: '500', 
+                          marginTop: '8px',
+                          fontFamily: 'Roboto'
+                        }}>
+                          Association with Purdue UXD
+                        </div>
                       </StyledText02>
                       <StyledTags>
                         <StyledTag>
