@@ -464,6 +464,10 @@ const StyledDivider = styled.div`
 export default function ContactPage() {
   const router = useRouter();
   
+  React.useEffect(() => {
+    document.title = "Daniel Lin - UX Designer Portfolio | Contact";
+  }, []);
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here

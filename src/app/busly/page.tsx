@@ -419,6 +419,10 @@ export default function BuslyPage() {
   const router = useRouter();
   
   React.useEffect(() => {
+    document.title = "Daniel Lin - UX Designer Portfolio | Busly Project";
+  }, []);
+  
+  React.useEffect(() => {
     // Only run on client side
     if (typeof window === 'undefined') return;
     

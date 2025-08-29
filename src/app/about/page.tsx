@@ -343,6 +343,10 @@ const StyledDividerLine = styled.div`
 export default function AboutPage() {
   const router = useRouter();
   
+  React.useEffect(() => {
+    document.title = "Daniel Lin - UX Designer Portfolio | About Me";
+  }, []);
+  
   return (
     <div>
       {/* Header */}

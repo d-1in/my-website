@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -1016,6 +1017,11 @@ const NavLink = styled.a`
 
 export default function JHUAplPage() {
   const router = useRouter();
+  
+  useEffect(() => {
+    document.title = "Daniel Lin - UX Designer Portfolio | JHU APL Project";
+  }, []);
+  
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
