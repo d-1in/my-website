@@ -1717,6 +1717,7 @@ export default function Home() {
                     <StyledContentTop>
                       <StyledText02>
                         <StyledHeading05>John Hopkins APL</StyledHeading05>
+                        {/* Subtitle for JHU APL project */}
                         <div style={{ 
                           color: '#6c757d', 
                           fontSize: '16px', 
