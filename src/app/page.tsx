@@ -1807,6 +1807,9 @@ export default function Home() {
                             <StyledTag05>
                               <StyledText09>Design</StyledText09>
                             </StyledTag05>
+                            <StyledTag05>
+                              <StyledText09>Solo Project</StyledText09>
+                            </StyledTag05>
                           </StyledTags01>
                         </StyledContentTop01>
                         <StyledActions03>
