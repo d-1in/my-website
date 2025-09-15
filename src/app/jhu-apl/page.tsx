@@ -486,9 +486,9 @@ export default function JHUAPL() {
                   </div>
                     </div>
                   </div>
+              </div>
             </div>
                </div>
-             </div>
       <div style={{width: '100%', paddingLeft: '64px', paddingRight: '64px', paddingTop: '112px', paddingBottom: '112px', background: 'var(--Color-Scheme-1-Background, white)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: '80px', display: 'flex'}}>
         <div style={{width: '1280px', maxWidth: '1280px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '80px', display: 'flex'}}>
           <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '80px', display: 'inline-flex'}}>
@@ -499,17 +499,17 @@ export default function JHUAPL() {
                   <div style={{alignSelf: 'stretch', paddingTop: '8px', paddingBottom: '8px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '24px', display: 'inline-flex'}}>
                     <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '16px', display: 'inline-flex'}}>
                       <div style={{alignSelf: 'stretch', color: 'var(--Color-Scheme-1-Text, black)', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '36px', wordWrap: 'break-word'}}>The AV interface is designed to maximize safety and user comfort. Passengers receive real-time hazard alerts, driving visualizations, navigation guidance, and clear vehicle status updates, while also having control over climate, ride pacing, entertainment, and device connectivity.Creating a secure, personalized, and seamless travel experience.</div>
+             </div>
                     </div>
                   </div>
                     </div>
                   </div>
-                </div>
             <div style={{maxWidth: '440px', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
               <img style={{width: '100%', height: 'auto', borderRadius: '12px', boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'}} src="/[FOR SPONSOR] Purdue UX x JHU APL Figjam-6.jpg" />
+                </div>
               </div>
                </div>
              </div>
-                </div>
       <div style={{width: '100%', paddingTop: '112px', paddingBottom: '112px', paddingLeft: '64px', paddingRight: '64px', background: 'var(--Color-Scheme-1-Background, white)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: '80px', display: 'flex'}}>
         <div style={{width: '100%', maxWidth: '1280px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '80px', display: 'flex'}}>
           <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: '80px', display: 'inline-flex'}}>
@@ -519,12 +519,13 @@ export default function JHUAPL() {
                   <div style={{width: '100%', maxWidth: '768px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: '16px', display: 'flex'}}>
                     <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
                       <div style={{textAlign: 'center', color: 'var(--Color-Scheme-1-Text, black)', fontSize: '16px', fontFamily: 'Roboto', fontWeight: '600', lineHeight: '24px', wordWrap: 'break-word'}}>Findings</div>
-                  </div>
+                </div>
                     <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: '24px', display: 'flex'}}>
                       <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Color-Scheme-1-Text, black)', fontSize: '48px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '57.60px', wordWrap: 'break-word'}}>Understanding The Current State of AVs And The Public's Perception </div>
                       <div style={{alignSelf: 'stretch', height: '180px', textAlign: 'center', color: 'var(--Color-Scheme-1-Text, black)', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '36px', wordWrap: 'break-word'}}>Autonomous vehicles are still relatively new, and with that comes a lack of public trust. Concerns about potential malfunctions and road safety continue to fuel skepticism toward automation in transportation systems.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> </div>
                          <div style={{maxWidth: '529px', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                            <img style={{width: '100%', height: 'auto', borderRadius: '12px', boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'}} src="/image 1.png" />
+                  </div>
                   </div>
                   </div>
                 </div>
@@ -534,7 +535,6 @@ export default function JHUAPL() {
                 </div>
               </div>
               </div>
-                </div>
       {/* Section Divider */}
       <div style={{width: '100%', paddingLeft: '64px', paddingRight: '64px', paddingTop: '40px', paddingBottom: '40px', background: 'var(--Color-Scheme-1-Background, white)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <div style={{width: '80px', height: '2px', background: 'linear-gradient(90deg, #081526 0%, #1a365d 100%)', borderRadius: '1px'}}></div>
@@ -742,18 +742,15 @@ export default function JHUAPL() {
                 <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '16px', display: 'flex'}}>
                   <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '48px', display: 'inline-flex'}}>
                     <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '24px', display: 'inline-flex'}}>
-                      <div style={{width: '48px', height: '48px', position: 'relative'}}>
-                        <img style={{width: '48px', height: '48px', left: '0px', top: '0px', position: 'absolute'}} src="https://placehold.co/48x48" />
              </div>
               </div>
                 </div>
-              </div>
                 <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '48px', display: 'inline-flex'}}>
                   <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '24px', display: 'inline-flex'}}>
                     <div style={{alignSelf: 'stretch'}}><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '32px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '41.60px', wordWrap: 'break-word'}}>Exterior<br/></span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '32px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '41.60px', wordWrap: 'break-word'}}><br/></span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>The AV is designed for accessibility and comfort with features like a </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>wheelchair ramp</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>sliding doors</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>spacious SUV sizing</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, and</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}> tinted windows.</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}> Safety and distinction are enhanced through</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}> 360° cameras</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>LiDAR</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>turquoise lights</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, and </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>custom license plates</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, while </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>external screens</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>projected crosswalks</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, and </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>speakers</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}> improve communication with pedestrians and drivers.</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}> Redundant elements </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>like</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}> side mirrors</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}> are </span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '700', lineHeight: '46.80px', wordWrap: 'break-word'}}>removed</span><span style={{color: 'var(--Color-Scheme-1-Text, black)', fontSize: '36px', fontFamily: 'Roboto', fontWeight: '400', lineHeight: '46.80px', wordWrap: 'break-word'}}>, reflecting the vehicle's reliance on advanced sensing technology.</span></div>
               </div>
-            </div>
               </div>
+            </div>
                </div>
             <img style={{width: '675px', height: '1291px'}} src="/proto.png" />
               </div>
@@ -767,9 +764,6 @@ export default function JHUAPL() {
               <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '16px', display: 'flex'}}>
                 <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '48px', display: 'inline-flex'}}>
                   <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '24px', display: 'inline-flex'}}>
-                    <div style={{width: '48px', height: '48px', position: 'relative'}}>
-                      <img style={{width: '48px', height: '48px', left: '0px', top: '0px', position: 'absolute'}} src="https://placehold.co/48x48" />
-              </div>
             </div>
             </div>
               </div>
@@ -790,9 +784,6 @@ export default function JHUAPL() {
                 <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '16px', display: 'flex'}}>
                   <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '48px', display: 'inline-flex'}}>
                     <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '24px', display: 'inline-flex'}}>
-                      <div style={{width: '48px', height: '48px', position: 'relative'}}>
-                        <img style={{width: '48px', height: '48px', left: '0px', top: '0px', position: 'absolute'}} src="https://placehold.co/48x48" />
-                      </div>
                     </div>
                   </div>
                 </div>
