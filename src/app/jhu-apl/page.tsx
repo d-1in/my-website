@@ -486,9 +486,6 @@ export default function JHUAPL() {
                   </div>
                     </div>
                   </div>
-            <div style={{flex: '1 1 0', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '16px', display: 'inline-flex'}}>
-              <img style={{width: '80px', height: '24px'}} src="https://placehold.co/80x24" />
-              </div>
             </div>
                </div>
              </div>
