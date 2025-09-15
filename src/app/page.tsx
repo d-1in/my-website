@@ -411,6 +411,7 @@ const StyledTag = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -422,6 +423,7 @@ const StyledTag01 = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -433,6 +435,7 @@ const StyledTag02 = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -453,6 +456,7 @@ const StyledTag03 = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -464,6 +468,7 @@ const StyledTag04 = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -475,6 +480,7 @@ const StyledTag05 = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -812,27 +818,24 @@ const StyledSkillsSection = styled.div`
   }
 `;
 
-const StyledSkillsGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
+const StyledSkillsContainer = styled.div`
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
+`;
+
+const StyledSkillsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  width: 100%;
   
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-  }
-  
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 16px;
   }
 `;
+
 
 const StyledSkillCard = styled.div`
   background: white;
@@ -1079,8 +1082,8 @@ const StyledHeader = styled.div`
   display: flex;
   
   @media (min-width: 768px) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `;
 
@@ -1129,13 +1132,36 @@ const StyledContent09 = styled.div`
 
 const StyledNavbar8 = styled.div`
   width: 100%;
-  background: #081526;
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: linear-gradient(135deg, #081526 0%, #1a365d 100%);
   overflow: hidden;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
   display: flex;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  
+  @media (min-width: 768px) {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  
+  &.scrolled {
+    background: rgba(8, 21, 38, 0.95);
+    backdrop-filter: blur(10px);
+  }
 `;
 
 const StyledLayout241 = styled.div`
@@ -1671,28 +1697,30 @@ export default function Home() {
               <StyledSkillsHeading>Skills</StyledSkillsHeading>
             </StyledContent02>
           </StyledSectionTitle>
-          <StyledSkillsGrid>
-            <StyledSkillCard>
-              <StyledSkillIcon>🎨</StyledSkillIcon>
-              <StyledSkillTitle>Design Tools</StyledSkillTitle>
-              <StyledSkillDescription>Figma, Framer, Adobe Creative Cloud, Google Workspace</StyledSkillDescription>
-            </StyledSkillCard>
-            <StyledSkillCard>
-              <StyledSkillIcon>📱</StyledSkillIcon>
-              <StyledSkillTitle>Prototyping</StyledSkillTitle>
-              <StyledSkillDescription>Wireframes and Design Sprints</StyledSkillDescription>
-            </StyledSkillCard>
-            <StyledSkillCard>
-              <StyledSkillIcon>🔍</StyledSkillIcon>
-              <StyledSkillTitle>User Research</StyledSkillTitle>
-              <StyledSkillDescription>Userability Testing and Personas</StyledSkillDescription>
-            </StyledSkillCard>
-            <StyledSkillCard>
-              <StyledSkillIcon>💻</StyledSkillIcon>
-              <StyledSkillTitle>Development</StyledSkillTitle>
-              <StyledSkillDescription>HTML and CSS</StyledSkillDescription>
-            </StyledSkillCard>
-          </StyledSkillsGrid>
+          <StyledSkillsContainer>
+            <StyledSkillsGrid>
+              <StyledSkillCard>
+                <StyledSkillIcon>🎨</StyledSkillIcon>
+                <StyledSkillTitle>Design Tools</StyledSkillTitle>
+                <StyledSkillDescription>Figma, Framer, Adobe Creative Cloud, Google Workspace</StyledSkillDescription>
+              </StyledSkillCard>
+              <StyledSkillCard>
+                <StyledSkillIcon>📱</StyledSkillIcon>
+                <StyledSkillTitle>Prototyping</StyledSkillTitle>
+                <StyledSkillDescription>Wireframes and Design Sprints</StyledSkillDescription>
+              </StyledSkillCard>
+              <StyledSkillCard>
+                <StyledSkillIcon>🔍</StyledSkillIcon>
+                <StyledSkillTitle>User Research</StyledSkillTitle>
+                <StyledSkillDescription>Userability Testing and Personas</StyledSkillDescription>
+              </StyledSkillCard>
+              <StyledSkillCard>
+                <StyledSkillIcon>💻</StyledSkillIcon>
+                <StyledSkillTitle>Development</StyledSkillTitle>
+                <StyledSkillDescription>HTML and CSS</StyledSkillDescription>
+              </StyledSkillCard>
+            </StyledSkillsGrid>
+          </StyledSkillsContainer>
         </StyledContainer02>
       </StyledSkillsSection>
       <StyledPortfolio16 id="portfolio-section">
@@ -1711,7 +1739,7 @@ export default function Home() {
               <StyledRow01>
                 <StyledContent07>
                   <StyledImage>
-                    <StyledPlaceholderImage src="/JHU_APL_logo-2.png"/>
+                    <StyledPlaceholderImage src="/Frame 16.png"/>
                   </StyledImage>
                   <StyledLeftContent>
                     <StyledContentTop>
@@ -1730,14 +1758,17 @@ export default function Home() {
                       </StyledText02>
                       <StyledTags>
                         <StyledTag>
-                          <StyledText03>UX Design</StyledText03>
+                          <StyledText03>Case Study</StyledText03>
                         </StyledTag>
                         <StyledTag01>
-                          <StyledText04>User Research</StyledText04>
+                          <StyledText04>Research/Design</StyledText04>
                         </StyledTag01>
                         <StyledTag02>
-                          <StyledText05>User Experience</StyledText05>
+                          <StyledText05>Transportation Service</StyledText05>
                         </StyledTag02>
+                        <StyledTag>
+                          <StyledText03>Team Project</StyledText03>
+                        </StyledTag>
                       </StyledTags>
                     </StyledContentTop>
                     <StyledActions02>
@@ -1759,7 +1790,7 @@ export default function Home() {
                   <StyledImage01>
                     <StyledContent09>
                       <StyledImage02>
-                        <StyledPlaceholderImage01 src="/busly.png"/>
+                        <StyledPlaceholderImage01 src="/Frame 17.png"/>
                       </StyledImage02>
                       <StyledLeftContent01>
                         <StyledContentTop01>
@@ -1768,13 +1799,13 @@ export default function Home() {
                           </StyledText06>
                           <StyledTags01>
                             <StyledTag03>
-                              <StyledText07>Moible App</StyledText07>
+                              <StyledText07>Case Study</StyledText07>
                             </StyledTag03>
                             <StyledTag04>
-                              <StyledText08>Navigation </StyledText08>
+                              <StyledText08>Mobile App</StyledText08>
                             </StyledTag04>
                             <StyledTag05>
-                              <StyledText09>UX Design</StyledText09>
+                              <StyledText09>Design</StyledText09>
                             </StyledTag05>
                           </StyledTags01>
                         </StyledContentTop01>

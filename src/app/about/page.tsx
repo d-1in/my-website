@@ -45,8 +45,8 @@ const StyledHeader = styled.div`
   display: flex;
   
   @media (min-width: 768px) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `;
 
@@ -376,9 +376,9 @@ export default function AboutPage() {
               </StyledColumn>
             </StyledContent>
             <StyledActions>
-                              <StyledButton onClick={() => router.push('/contact')}>
-                  <StyledButton01>Contact</StyledButton01>
-                </StyledButton>
+              <StyledButton onClick={() => router.push('/contact')}>
+                <StyledButton01>Contact</StyledButton01>
+              </StyledButton>
             </StyledActions>
           </StyledContainer>
         </StyledHeader>

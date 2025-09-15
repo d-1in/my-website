@@ -50,8 +50,8 @@ const StyledHeader = styled.div`
   display: flex;
   
   @media (min-width: 768px) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `;
 
@@ -236,6 +236,7 @@ const StyledTag = styled.div`
   padding-top: 4px;
   padding-bottom: 4px;
   background: var(--Color-Neutral-Lightest, #EEEEEE);
+  border-radius: 12px;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -444,58 +445,58 @@ export default function BuslyPage() {
   return (
     <div className="busly-page-content">
       <>
-      {/* Header */}
-      <StyledNavbar8 data-navbar>
-        <StyledHeader>
-          <StyledContainer>
-            <StyledContent>
-              <StyledLogo>
-                <img 
-                  src="/logo.png" 
-                  alt="Logo" 
-                  style={{ width: '67px', height: '42px', objectFit: 'contain', cursor: 'pointer' }} 
-                  onClick={() => {
-                    console.log('Logo clicked, navigating to home');
-                    router.push('/');
-                  }} 
-                />
-              </StyledLogo>
-              <StyledColumn>
-                <StyledLinkTwo>
-                  <StyledLinktext 
-                    style={{ cursor: 'pointer' }}
+        {/* Header */}
+        <StyledNavbar8 data-navbar>
+          <StyledHeader>
+            <StyledContainer>
+              <StyledContent>
+                <StyledLogo>
+                  <img 
+                    src="/logo.png" 
+                    alt="Logo" 
+                    style={{ width: '67px', height: '42px', objectFit: 'contain', cursor: 'pointer' }} 
                     onClick={() => {
-                      console.log('Home clicked, navigating to home');
+                      console.log('Logo clicked, navigating to home');
                       router.push('/');
-                    }}
-                  >
-                    Home
-                  </StyledLinktext>
-                </StyledLinkTwo>
-                <StyledLinkTwo>
-                  <StyledLinktext 
-                    style={{ cursor: 'pointer' }}
-                    onClick={() => {
-                      console.log('About clicked, navigating to about');
-                      router.push('/about');
-                    }}
-                  >
-                    About Me
-                  </StyledLinktext>
-                </StyledLinkTwo>
-              </StyledColumn>
-            </StyledContent>
-            <StyledActions>
-              <StyledButton onClick={() => {
-                console.log('Contact clicked, navigating to contact');
-                router.push('/contact');
-              }}>
-                <StyledButton01>Contact</StyledButton01>
-              </StyledButton>
-            </StyledActions>
-          </StyledContainer>
-        </StyledHeader>
-      </StyledNavbar8>
+                    }} 
+                  />
+                </StyledLogo>
+                <StyledColumn>
+                  <StyledLinkTwo>
+                    <StyledLinktext 
+                      style={{ cursor: 'pointer' }}
+                      onClick={() => {
+                        console.log('Home clicked, navigating to home');
+                        router.push('/');
+                      }}
+                    >
+                      Home
+                    </StyledLinktext>
+                  </StyledLinkTwo>
+                  <StyledLinkTwo>
+                    <StyledLinktext 
+                      style={{ cursor: 'pointer' }}
+                      onClick={() => {
+                        console.log('About clicked, navigating to about');
+                        router.push('/about');
+                      }}
+                    >
+                      About Me
+                    </StyledLinktext>
+                  </StyledLinkTwo>
+                </StyledColumn>
+              </StyledContent>
+              <StyledActions>
+                <StyledButton onClick={() => {
+                  console.log('Contact clicked, navigating to contact');
+                  router.push('/contact');
+                }}>
+                  <StyledButton01>Contact</StyledButton01>
+                </StyledButton>
+              </StyledActions>
+            </StyledContainer>
+          </StyledHeader>
+        </StyledNavbar8>
 
       {/* Hero Section */}
       <StyledHeroSection>
@@ -505,13 +506,13 @@ export default function BuslyPage() {
               <StyledTitle>Busly</StyledTitle>
               <StyledTags>
                 <StyledTag>
-                  <StyledTagText>UX Design</StyledTagText>
-                </StyledTag>
-                <StyledTag>
-                  <StyledTagText>Prototyping</StyledTagText>
+                  <StyledTagText>Case Study</StyledTagText>
                 </StyledTag>
                 <StyledTag>
                   <StyledTagText>Mobile App</StyledTagText>
+                </StyledTag>
+                <StyledTag>
+                  <StyledTagText>Design</StyledTagText>
                 </StyledTag>
               </StyledTags>
             </StyledHeroLeft>

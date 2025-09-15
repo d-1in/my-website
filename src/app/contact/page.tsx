@@ -45,8 +45,8 @@ const StyledHeader = styled.div`
   display: flex;
   
   @media (min-width: 768px) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `;
 
